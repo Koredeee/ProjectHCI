@@ -7,6 +7,7 @@
     <title>NOKA 3</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="Image/noka.png">
 </head>
 <body>
     <header class="first-header">
@@ -32,31 +33,31 @@
         <div class="wall"></div>
         <div class="main">
             <div class="title">REGISTRATION</div>
-            <form action="#">
+            <form action="#" onsubmit="return validate()">
                 <div class="user-details">
                     <div class="input-box">
                       <span class="details">Full Name</span>
-                      <input type="text" placeholder="Enter your name" required>
+                      <input type="text" name="" id="txtFullname" placeholder="Enter your name" required>
                     </div>
                     <div class="input-box">
                       <span class="details">Username</span>
-                      <input type="text" placeholder="Enter your username" required>
+                      <input type="text" name="" id="txtUsername" placeholder="Enter your username" required>
                     </div>
                     <div class="input-box">
                       <span class="details">Email</span>
-                      <input type="email" placeholder="Enter your email" required>
+                      <input type="email" name="" id="txtEmail" placeholder="Enter your email" required>
                     </div>
                     <div class="input-box">
                       <span class="details">Phone Number</span>
-                      <input type="text" placeholder="Enter your number" required>
+                      <input type="text" name="" id="txtPhonenumber" placeholder="Enter your number" required>
                     </div>
                     <div class="input-box">
                       <span class="details">Password</span>
-                      <input type="password" placeholder="Enter your password" required>
+                      <input type="password" name="" id="txtPassword" placeholder="Enter your password" required>
                     </div>
                     <div class="input-box">
                       <span class="details">Confirm Password</span>
-                      <input type="password" placeholder="Confirm your password" required>
+                      <input type="password" name="" id="txtPassword" placeholder="Confirm your password" required>
                     </div>
                   </div>
                   <div class="gender-details">
@@ -79,8 +80,10 @@
                     <label for="checkbox"> I agree to these <a href="#">Terms and Conditions</a>.</label>
                   </div>
                   <div class="register-btn">
+                      <p id="error" style="color: red; font-size: 20px;"></p>
                     <input type="submit" value="REGISTER">
                   </div>
+                  
             </form>
         </div>
     </section>
@@ -96,4 +99,5 @@
         </div>
     </footer>
 </body>
+<script src="./script.js"></script>
 </html>

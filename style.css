@@ -352,6 +352,7 @@
     letter-spacing: 1px;
     border-radius: 5px;
     transition: all 0.5s;
+    cursor: pointer;
   }
   
   form .register-btn input:hover{
