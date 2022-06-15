@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -11,6 +11,8 @@
     list-style: none;
     text-decoration: none;
 }
+
+/* Header */
 
 .first-header{
     grid-area: header;
@@ -28,9 +30,11 @@
     float: left;
     padding-left: 8rem;
     padding-right: 3rem;
-    padding-top: 1.2rem;
+    padding-top: 1.5rem;
     color: #F1FAEE;
     text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    
 }
 
 .col2 a{
@@ -73,15 +77,47 @@
 /* Content_Home */
 
 .content_home_1 {
+    display: flex;
     width: 100%;
-    height: 570px;
+    height: 100vh;
+    justify-content: baseline;
+    align-items: center;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(image/Gen_1_Home.jpg);
+    background-image: url('image/Gen_1_Home.png');
+    object-position: 100%;
 }
 
+.atas-tulisan-home{
+    padding-bottom: 15px;
+    font-size: 50px;
+    font-family: 'Varela Round', sans-serif;
+}
 
+.tulisan-home{
+    padding-left: 10rem;
+    color: #F1FAEE;
+}
+
+.download-now{
+    background-color: #1D3557;
+    border: none;
+    color: #E8FFE5;
+    padding: 12px 40px;
+    text-decoration: none;
+    margin: 20px 2px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.download-now:hover{
+    background: #E8FFE5;
+    color: #1D3557;
+}
 
 /* Content_News */
 
