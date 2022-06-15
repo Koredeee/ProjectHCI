@@ -232,16 +232,18 @@
   .main{
     max-width: 700px;
     width: 100%;
-    background: #fff;
+    background: #F1FAEE;
     padding: 25px 30px;
-    border-radius: 5px;
+    border-radius: 1rem;
+    opacity: 97%;
   }
   
   .main .title {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: bold;
     padding-bottom: 2rem;
     text-align: center;
+    color: #1D3557;
   }
   
   .main .title::before{
