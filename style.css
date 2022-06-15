@@ -132,7 +132,7 @@
 
 .latest-news{
     padding-bottom: 10px;
-    padding-top: 70px;
+    padding-top: 80px;
     font-size: 60px;
     /* font-weight: bold; */
     padding-left: 9.5rem;
@@ -176,6 +176,208 @@
     padding: 5rem;
     font-size: 50px
 }
+
+.date{
+    padding-left: 12rem;
+    font-size: 40px;
+    padding-bottom: 2px;
+}
+
+.home-esport{
+    height: auto;
+    width: 70%;
+}
+
+.match-box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 12rem;
+    padding-bottom: 7rem;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    background-color:#1D3557;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding-left: 10px; */
+    /* padding-right: 17px; */
+    margin-top: 0.8rem;
+    margin-bottom: 10rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
+    border-radius: 40px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1D3557;
+    text-align: center;
+}
+
+.match-box img{
+    /* align-items: center; */
+    padding-right: 60px;
+}
+
+/* Content_Register */
+
+.register-layout {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('image/Gen_1_News.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .main{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+  }
+  
+  .main .title {
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .main .title::before{
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: #1D3557;
+  }
+  
+  .main form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+  
+  form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+  
+  .user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px; 
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  .user-details .input-box input:focus,
+  .user-details .input-box input:valid{
+    border-color: #1D3557;
+  }
+  
+  form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  form .gender-details .categorize{
+    width: 80%;
+    display: flex;
+    margin: 14px 0;
+  }
+  
+  .gender-details .categorize label{
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .gender-details .categorize .select{
+    height: 18px;
+    width: 18px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+  }
+
+  .agreement .boleh .setuju{
+    height: 18px;
+    width: 18px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+  }
+  #select-one:checked ~ .categorize label .one,
+  #select-two:checked ~ .categorize label .two{
+    border-color: #d9d9d9;
+    background: #1D3557;
+  }
+  
+  form input[type="radio"]{
+    display: none;
+  }
+  
+  form .register-btn{
+    height: 45px;
+    margin: 45px 0;
+  }
+  
+  form .register-btn input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #F1FAEE;
+    background: #1D3557;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: all 0.5s;
+  }
+  
+  form .register-btn input:hover{
+    font-weight: bold;
+    background:  #F1FAEE;
+    color: #1D3557;
+    outline: #1D3557;
+  }
+
+  .check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .tacbox {
+    display:block;
+    max-width: 500px;
+    padding-top: 5px;
+  }
+  
+  .tackbox input {
+    height: 2em;
+    width: 2em;
+    vertical-align: middle;
+  }
 
 /* Content_News */
 
@@ -245,6 +447,7 @@
     width: 397px;
     height: 215px;
 }
+
 
 /* Content Heroes */
 
