@@ -85,6 +85,7 @@
     display: flex;
     width: 100%;
     height: 100vh;
+    margin-top: -2px;
     justify-content: baseline;
     align-items: center;
     background-position: center;
@@ -585,11 +586,16 @@
     margin: 90px 80px;
 }
 
+.content_heroes_flex h2 {
+    opacity: 90%;
+}
+
 /* Content Show Hero */
 
 .content_show_hero {
     width: 100%;
     height: 1020px;
+    /* margin-top: 3px; */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -784,7 +790,7 @@
     border-radius: 8px;
     background-color: #1D3557;
     width: 100%;
-    /* opacity: 0.7; */
+    opacity: 90%;
 }
 
 .content_esport_day h1 {
@@ -800,7 +806,7 @@
     height: 160px;
     display: flex;
     margin-top: 7px;
-    /* opacity: 0.7; */
+    opacity: 90%;
 }
 
 .content_esport_match_left {
@@ -852,6 +858,9 @@
     vertical-align: middle;
     font-size: 25px;
 }
+.content_esport_match_mid_1 h1 {
+    font-weight: normal;
+}
 
 .content_esport_match_right_1 {
     float: right;
@@ -863,6 +872,7 @@
     float: right;
     padding: 10px 10px;
     margin-top: 40px;
+    opacity: 70%;
 }
 
 .content_esport_match_left_2 {
