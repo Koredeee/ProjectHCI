@@ -168,6 +168,7 @@
 
 .content-home-3{
     background: #E8FFE5;
+    height: 720px;
 }
 
 .upcoming-match{
@@ -212,9 +213,74 @@
     text-align: center;
 }
 
+.match_Upcoming {
+    display: flex;
+    font-weight: bold;
+    font-size: 21px;
+    background-color:#1D3557;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 300px;
+    margin-top: 0.8rem;
+    margin-bottom: 10rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
+    border-radius: 40px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1D3557;
+    text-align: center;
+    
+}
+
 .match-box img{
     /* align-items: center; */
-    padding-right: 60px;
+    /* padding-right: 60px; */
+    height: 150px;
+    width: 150px;
+}
+
+.match-img-kiri {
+    height: 220px;
+    width: 250px;
+}
+
+.match-img-kanan {
+    height: 220px;
+    width: 250px;
+}
+
+.match-img-tengah {
+    height: 150px;
+    width: 170px;
+}
+
+.match_kiri {
+    float: left;
+    width: 30%;
+    padding-top: 30px;
+    padding-left: 10px;
+    color: #F1FAEE;
+}
+
+.match_tengah {
+    float: left;
+    width: 40%;
+    font-style: italic;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    padding-top: 30px;
+    height: 180px;
+    color: #F1FAEE;
+}
+
+.match_kanan {
+    float: right;
+    width: 30%;
+    padding-top: 30px;
+    padding-right: 10px;
+    color: #F1FAEE;
 }
 
 /* Content_Register */
@@ -823,7 +889,7 @@
     width: 49%;
 }
 
-.esport_region {
+.esport_continent {
     font-size: 30px;
 }
 
