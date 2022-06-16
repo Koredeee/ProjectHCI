@@ -543,19 +543,19 @@
 
 .content_heroes_kiri {
     float: left;
-    height: 650px;
+    height: 450px;
     width: 10%;
 }
 
 .content_heroes_kanan {
     float: right;
-    height: 650px;
+    height: 450px;
     width: 10%;
 }
 
 .content_heroes_tengah {
     float: left;
-    height: 650px;
+    height: 450px;
     width: 80%;
     padding: 15px;
 }
